@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CBFAD0E14B0C5E300D30120 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBFAD0D14B0C5E300D30120 /* UIKit.framework */; };
+		6CBFAD1014B0C5E300D30120 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBFAD0F14B0C5E300D30120 /* Foundation.framework */; };
+		6CBFAD1214B0C5E300D30120 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBFAD1114B0C5E300D30120 /* CoreGraphics.framework */; };
+		6CBFAD1814B0C5E300D30120 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CBFAD1614B0C5E300D30120 /* InfoPlist.strings */; };
+		6CBFAD1A14B0C5E300D30120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBFAD1914B0C5E300D30120 /* main.m */; };
+		6CBFAD1E14B0C5E300D30120 /* LTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBFAD1D14B0C5E300D30120 /* LTAppDelegate.m */; };
+		6CBFAD2114B0C5E300D30120 /* LTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBFAD2014B0C5E300D30120 /* LTViewController.m */; };
+		6CBFAD2414B0C5E300D30120 /* LTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CBFAD2214B0C5E300D30120 /* LTViewController_iPhone.xib */; };
+		6CBFAD2714B0C5E300D30120 /* LTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CBFAD2514B0C5E300D30120 /* LTViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CBFAD0914B0C5E300D30120 /* LightstreakTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightstreakTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBFAD0D14B0C5E300D30120 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CBFAD0F14B0C5E300D30120 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CBFAD1114B0C5E300D30120 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CBFAD1514B0C5E300D30120 /* LightstreakTest-Info.plist */ = {isa = PBXFileReference; path = "LightstreakTest-Info.plist"; sourceTree = "<group>"; };
+		6CBFAD1714B0C5E300D30120 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CBFAD1914B0C5E300D30120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CBFAD1B14B0C5E300D30120 /* LightstreakTest-Prefix.pch */ = {isa = PBXFileReference; path = "LightstreakTest-Prefix.pch"; sourceTree = "<group>"; };
+		6CBFAD1C14B0C5E300D30120 /* LTAppDelegate.h */ = {isa = PBXFileReference; path = LTAppDelegate.h; sourceTree = "<group>"; };
+		6CBFAD1D14B0C5E300D30120 /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
+		6CBFAD1F14B0C5E300D30120 /* LTViewController.h */ = {isa = PBXFileReference; path = LTViewController.h; sourceTree = "<group>"; };
+		6CBFAD2014B0C5E300D30120 /* LTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTViewController.m; sourceTree = "<group>"; };
+		6CBFAD2314B0C5E300D30120 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LTViewController_iPhone.xib; sourceTree = "<group>"; };
+		6CBFAD2614B0C5E300D30120 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LTViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CBFAD0614B0C5E300D30120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBFAD0E14B0C5E300D30120 /* UIKit.framework in Frameworks */,
+				6CBFAD1014B0C5E300D30120 /* Foundation.framework in Frameworks */,
+				6CBFAD1214B0C5E300D30120 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CBFACFE14B0C5E300D30120 = {
+			isa = PBXGroup;
+			children = (
+				6CBFAD1314B0C5E300D30120 /* LightstreakTest */,
+				6CBFAD0C14B0C5E300D30120 /* Frameworks */,
+				6CBFAD0A14B0C5E300D30120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CBFAD0A14B0C5E300D30120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBFAD0914B0C5E300D30120 /* LightstreakTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CBFAD0C14B0C5E300D30120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CBFAD0D14B0C5E300D30120 /* UIKit.framework */,
+				6CBFAD0F14B0C5E300D30120 /* Foundation.framework */,
+				6CBFAD1114B0C5E300D30120 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CBFAD1314B0C5E300D30120 /* LightstreakTest */ = {
+			isa = PBXGroup;
+			children = (
+				6CBFAD1C14B0C5E300D30120 /* LTAppDelegate.h */,
+				6CBFAD1D14B0C5E300D30120 /* LTAppDelegate.m */,
+				6CBFAD1F14B0C5E300D30120 /* LTViewController.h */,
+				6CBFAD2014B0C5E300D30120 /* LTViewController.m */,
+				6CBFAD2214B0C5E300D30120 /* LTViewController_iPhone.xib */,
+				6CBFAD2514B0C5E300D30120 /* LTViewController_iPad.xib */,
+				6CBFAD1414B0C5E300D30120 /* Supporting Files */,
+			);
+			path = LightstreakTest;
+			sourceTree = "<group>";
+		};
+		6CBFAD1414B0C5E300D30120 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CBFAD1514B0C5E300D30120 /* LightstreakTest-Info.plist */,
+				6CBFAD1614B0C5E300D30120 /* InfoPlist.strings */,
+				6CBFAD1914B0C5E300D30120 /* main.m */,
+				6CBFAD1B14B0C5E300D30120 /* LightstreakTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CBFAD0814B0C5E300D30120 /* LightstreakTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CBFAD2A14B0C5E300D30120 /* Build configuration list for PBXNativeTarget "LightstreakTest" */;
+			buildPhases = (
+				6CBFAD0514B0C5E300D30120 /* Sources */,
+				6CBFAD0614B0C5E300D30120 /* Frameworks */,
+				6CBFAD0714B0C5E300D30120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LightstreakTest;
+			productName = LightstreakTest;
+			productReference = 6CBFAD0914B0C5E300D30120 /* LightstreakTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CBFAD0014B0C5E300D30120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6CBFAD0314B0C5E300D30120 /* Build configuration list for PBXProject "LightstreakTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CBFACFE14B0C5E300D30120;
+			productRefGroup = 6CBFAD0A14B0C5E300D30120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CBFAD0814B0C5E300D30120 /* LightstreakTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CBFAD0714B0C5E300D30120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBFAD1814B0C5E300D30120 /* InfoPlist.strings in Resources */,
+				6CBFAD2414B0C5E300D30120 /* LTViewController_iPhone.xib in Resources */,
+				6CBFAD2714B0C5E300D30120 /* LTViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CBFAD0514B0C5E300D30120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBFAD1A14B0C5E300D30120 /* main.m in Sources */,
+				6CBFAD1E14B0C5E300D30120 /* LTAppDelegate.m in Sources */,
+				6CBFAD2114B0C5E300D30120 /* LTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CBFAD1614B0C5E300D30120 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CBFAD1714B0C5E300D30120 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6CBFAD2214B0C5E300D30120 /* LTViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CBFAD2314B0C5E300D30120 /* en */,
+			);
+			name = LTViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		6CBFAD2514B0C5E300D30120 /* LTViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CBFAD2614B0C5E300D30120 /* en */,
+			);
+			name = LTViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CBFAD2814B0C5E300D30120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CBFAD2914B0C5E300D30120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CBFAD2B14B0C5E300D30120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightstreakTest/LightstreakTest-Prefix.pch";
+				INFOPLIST_FILE = "LightstreakTest/LightstreakTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6CBFAD2C14B0C5E300D30120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LightstreakTest/LightstreakTest-Prefix.pch";
+				INFOPLIST_FILE = "LightstreakTest/LightstreakTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CBFAD0314B0C5E300D30120 /* Build configuration list for PBXProject "LightstreakTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CBFAD2814B0C5E300D30120 /* Debug */,
+				6CBFAD2914B0C5E300D30120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CBFAD2A14B0C5E300D30120 /* Build configuration list for PBXNativeTarget "LightstreakTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CBFAD2B14B0C5E300D30120 /* Debug */,
+				6CBFAD2C14B0C5E300D30120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CBFAD0014B0C5E300D30120 /* Project object */;
+}
