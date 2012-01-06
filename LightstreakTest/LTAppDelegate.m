@@ -7,13 +7,15 @@
 //
 
 #import "LTAppDelegate.h"
-
 #import "LTViewController.h"
 
 @implementation LTAppDelegate
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize applicationWidth = _applicationWidth;
+@synthesize applicationHeight = _applicationHeight;
+@synthesize applicationFrame = _applicationFrame;
 
 - (void)dealloc
 {
@@ -31,6 +33,7 @@
 	} else {
 	    self.viewController = [[[LTViewController alloc] initWithNibName:@"LTViewController_iPad" bundle:nil] autorelease];
 	}
+	
 	self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;

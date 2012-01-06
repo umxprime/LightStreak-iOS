@@ -16,6 +16,14 @@
 		6CBFAD2114B0C5E300D30120 /* LTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBFAD2014B0C5E300D30120 /* LTViewController.m */; };
 		6CBFAD2414B0C5E300D30120 /* LTViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CBFAD2214B0C5E300D30120 /* LTViewController_iPhone.xib */; };
 		6CBFAD2714B0C5E300D30120 /* LTViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CBFAD2514B0C5E300D30120 /* LTViewController_iPad.xib */; };
+		6CBFAD3214B0C8AC00D30120 /* LTLightStreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBFAD3114B0C8AC00D30120 /* LTLightStreak.m */; };
+		6CBFAD3414B0D10900D30120 /* libSparrow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBFAD3314B0D10900D30120 /* libSparrow.a */; };
+		6CBFAD3614B0D26500D30120 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBFAD3514B0D26500D30120 /* QuartzCore.framework */; };
+		6CBFAD3814B0D26F00D30120 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBFAD3714B0D26F00D30120 /* libz.dylib */; };
+		6CBFAD3B14B0D28200D30120 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBFAD3914B0D28200D30120 /* OpenAL.framework */; };
+		6CBFAD3C14B0D28200D30120 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBFAD3A14B0D28200D30120 /* OpenGLES.framework */; };
+		6CBFAD3E14B0D29200D30120 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBFAD3D14B0D29200D30120 /* AudioToolbox.framework */; };
+		6CBFAD4014B0D29A00D30120 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBFAD3F14B0D29A00D30120 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +31,25 @@
 		6CBFAD0D14B0C5E300D30120 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6CBFAD0F14B0C5E300D30120 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6CBFAD1114B0C5E300D30120 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6CBFAD1514B0C5E300D30120 /* LightstreakTest-Info.plist */ = {isa = PBXFileReference; path = "LightstreakTest-Info.plist"; sourceTree = "<group>"; };
+		6CBFAD1514B0C5E300D30120 /* LightstreakTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightstreakTest-Info.plist"; sourceTree = "<group>"; };
 		6CBFAD1714B0C5E300D30120 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CBFAD1914B0C5E300D30120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6CBFAD1B14B0C5E300D30120 /* LightstreakTest-Prefix.pch */ = {isa = PBXFileReference; path = "LightstreakTest-Prefix.pch"; sourceTree = "<group>"; };
-		6CBFAD1C14B0C5E300D30120 /* LTAppDelegate.h */ = {isa = PBXFileReference; path = LTAppDelegate.h; sourceTree = "<group>"; };
+		6CBFAD1B14B0C5E300D30120 /* LightstreakTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LightstreakTest-Prefix.pch"; sourceTree = "<group>"; };
+		6CBFAD1C14B0C5E300D30120 /* LTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAppDelegate.h; sourceTree = "<group>"; };
 		6CBFAD1D14B0C5E300D30120 /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
-		6CBFAD1F14B0C5E300D30120 /* LTViewController.h */ = {isa = PBXFileReference; path = LTViewController.h; sourceTree = "<group>"; };
+		6CBFAD1F14B0C5E300D30120 /* LTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTViewController.h; sourceTree = "<group>"; };
 		6CBFAD2014B0C5E300D30120 /* LTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTViewController.m; sourceTree = "<group>"; };
 		6CBFAD2314B0C5E300D30120 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LTViewController_iPhone.xib; sourceTree = "<group>"; };
 		6CBFAD2614B0C5E300D30120 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LTViewController_iPad.xib; sourceTree = "<group>"; };
+		6CBFAD3014B0C8AC00D30120 /* LTLightStreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTLightStreak.h; sourceTree = "<group>"; };
+		6CBFAD3114B0C8AC00D30120 /* LTLightStreak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTLightStreak.m; sourceTree = "<group>"; };
+		6CBFAD3314B0D10900D30120 /* libSparrow.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSparrow.a; path = "../Sparrow-Framework/build/libSparrow.a"; sourceTree = "<group>"; };
+		6CBFAD3514B0D26500D30120 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6CBFAD3714B0D26F00D30120 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		6CBFAD3914B0D28200D30120 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		6CBFAD3A14B0D28200D30120 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6CBFAD3D14B0D29200D30120 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6CBFAD3F14B0D29A00D30120 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,9 +57,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CBFAD4014B0D29A00D30120 /* AVFoundation.framework in Frameworks */,
+				6CBFAD3E14B0D29200D30120 /* AudioToolbox.framework in Frameworks */,
+				6CBFAD3B14B0D28200D30120 /* OpenAL.framework in Frameworks */,
+				6CBFAD3C14B0D28200D30120 /* OpenGLES.framework in Frameworks */,
+				6CBFAD3814B0D26F00D30120 /* libz.dylib in Frameworks */,
+				6CBFAD3614B0D26500D30120 /* QuartzCore.framework in Frameworks */,
 				6CBFAD0E14B0C5E300D30120 /* UIKit.framework in Frameworks */,
 				6CBFAD1014B0C5E300D30120 /* Foundation.framework in Frameworks */,
 				6CBFAD1214B0C5E300D30120 /* CoreGraphics.framework in Frameworks */,
+				6CBFAD3414B0D10900D30120 /* libSparrow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +93,13 @@
 		6CBFAD0C14B0C5E300D30120 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6CBFAD3314B0D10900D30120 /* libSparrow.a */,
+				6CBFAD3714B0D26F00D30120 /* libz.dylib */,
+				6CBFAD3F14B0D29A00D30120 /* AVFoundation.framework */,
+				6CBFAD3D14B0D29200D30120 /* AudioToolbox.framework */,
+				6CBFAD3914B0D28200D30120 /* OpenAL.framework */,
+				6CBFAD3A14B0D28200D30120 /* OpenGLES.framework */,
+				6CBFAD3514B0D26500D30120 /* QuartzCore.framework */,
 				6CBFAD0D14B0C5E300D30120 /* UIKit.framework */,
 				6CBFAD0F14B0C5E300D30120 /* Foundation.framework */,
 				6CBFAD1114B0C5E300D30120 /* CoreGraphics.framework */,
@@ -86,6 +117,8 @@
 				6CBFAD2214B0C5E300D30120 /* LTViewController_iPhone.xib */,
 				6CBFAD2514B0C5E300D30120 /* LTViewController_iPad.xib */,
 				6CBFAD1414B0C5E300D30120 /* Supporting Files */,
+				6CBFAD3014B0C8AC00D30120 /* LTLightStreak.h */,
+				6CBFAD3114B0C8AC00D30120 /* LTLightStreak.m */,
 			);
 			path = LightstreakTest;
 			sourceTree = "<group>";
@@ -167,6 +200,7 @@
 				6CBFAD1A14B0C5E300D30120 /* main.m in Sources */,
 				6CBFAD1E14B0C5E300D30120 /* LTAppDelegate.m in Sources */,
 				6CBFAD2114B0C5E300D30120 /* LTViewController.m in Sources */,
+				6CBFAD3214B0C8AC00D30120 /* LTLightStreak.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +238,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -219,9 +256,16 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SPARROW_SRC)";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$(SPARROW_BUILD)";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "i386 armv6 armv7";
 			};
 			name = Debug;
 		};
@@ -229,7 +273,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -237,11 +284,18 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SPARROW_SRC)";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$(SPARROW_BUILD)";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "i386 armv6 armv7";
 			};
 			name = Release;
 		};
@@ -251,6 +305,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LightstreakTest/LightstreakTest-Prefix.pch";
 				INFOPLIST_FILE = "LightstreakTest/LightstreakTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -262,6 +317,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LightstreakTest/LightstreakTest-Prefix.pch";
 				INFOPLIST_FILE = "LightstreakTest/LightstreakTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

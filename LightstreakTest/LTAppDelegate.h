@@ -16,4 +16,8 @@
 
 @property (strong, nonatomic) LTViewController *viewController;
 
+@property (nonatomic) float applicationWidth;
+@property (nonatomic) float applicationHeight;
+@property (nonatomic) CGRect applicationFrame;
+
 @end
